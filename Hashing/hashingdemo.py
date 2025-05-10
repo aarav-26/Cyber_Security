@@ -13,6 +13,6 @@ hashtype = args.type
 m = getattr(hashlib,hashtype)()
 m.update(password.encode())
 
-# output
+#output
 print("< hash-type : " + hashtype + " >")
 print(m.hexdigest())
